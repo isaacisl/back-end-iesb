@@ -42,3 +42,5 @@ git pull origin nome_da_branch
 ```shell
 git push origin nome_da_branch
 ```
+
+xD
