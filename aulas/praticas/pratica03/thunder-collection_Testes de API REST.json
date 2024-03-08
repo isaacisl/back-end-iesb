@@ -1,0 +1,75 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Testes de API REST",
+    "dateExported": "2024-03-08T15:25:09.324Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "825c428a-c50a-4571-a1ce-e8e37b1f17a3",
+            "colId": "174453d3-b860-4464-8997-e0fe207040b3",
+            "containerId": "",
+            "name": "https://dummyjson.com/products",
+            "url": "https://dummyjson.com/products/101",
+            "method": "DELETE",
+            "sortNum": 10000,
+            "created": "2024-03-08T15:22:22.925Z",
+            "modified": "2024-03-08T15:22:22.925Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"maça\",\n  \"description\": \"suculenta\",\n  \"price\": 1000\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "32e03180-32b2-4653-bf30-7073aa1fe8b0",
+            "colId": "174453d3-b860-4464-8997-e0fe207040b3",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/1",
+            "url": "https://dummyjson.com/products/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-03-08T15:23:22.476Z",
+            "modified": "2024-03-08T15:23:22.476Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f378c7f1-1498-4b74-80b4-8fcbb0a1005e",
+            "colId": "174453d3-b860-4464-8997-e0fe207040b3",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/1",
+            "url": "https://dummyjson.com/products/add",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-08T15:23:50.452Z",
+            "modified": "2024-03-08T15:23:50.452Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"maçaa\",\n  \"description\": \"suculenta\",\n  \"price\": 1000\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e26531e9-5a2b-44ef-bd82-81a14f9e0ca5",
+            "colId": "174453d3-b860-4464-8997-e0fe207040b3",
+            "containerId": "",
+            "name": "https://dummyjson.com/products/101",
+            "url": "https://dummyjson.com/products/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-08T15:24:33.004Z",
+            "modified": "2024-03-08T15:24:33.004Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
