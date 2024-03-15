@@ -8,7 +8,6 @@ app.listen(3000, function(){
 
 app.use(express.json());
 
-
 app.get("/", function(req, res){
     res.status(200).send("Você fez uma requisição GET");
 })
@@ -16,7 +15,6 @@ app.get("/", function(req, res){
 app.post("/", function(req, res){
     res.status(201).send("SUCESSO")
 })
-
 
 app.put("/", function(req, res){
     res.status(200).end();
